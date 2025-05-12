@@ -47,14 +47,14 @@
                                     <td>{{ item.product.name }}</td>
                                     <td>{{ item.quantity }}</td>
                                     <td class="text-end">${{ item.price }}</td>
-                                    <td class="text-end">${{ item.total_price }}</td>
+                                    <td class="text-end">${{ item.total_amount }}</td>
                                 </tr>
                                 {% endfor %}
                             </tbody>
                             <tfoot>
                                 <tr>
                                     <td colspan="3" class="text-end"><strong>Subtotal:</strong></td>
-                                    <td class="text-end">${{ order.total_price }}</td>
+                                    <td class="text-end">${{ order.total_amount }}</td>
                                 </tr>
                                 <tr>
                                     <td colspan="3" class="text-end"><strong>Shipping:</strong></td>
